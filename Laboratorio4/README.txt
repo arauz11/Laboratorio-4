@@ -1,0 +1,5 @@
+A continuación se describirá lo realizado en los problemas 2 y 3.
+El problema 2 fue dividido en dos partes ejercicio2 y ejercicio2_1, se hizo de tal manera para explicar lo realizado en sus códigos. El ejercicio 2 tiene un loop "infinito" debido a su construcción, ya que imprime el número de tiempo mientras se ejecuta el bucle, (Int j),  ya que los bucles while no estarán definidos, se ejecutará un tiempo ilimitado e imprimirá más de 10000000 iteraciones, pero depende de la máquina local y del compilador. Algunas máquinas matan el bucle while si se conoce como indefinido.
+
+Para solucionar el problema se construyó el código del ejercicio2_1. Dicho código está construido de tal manera que sus loop en while y en for salgan del programa al ingresar el numero deseado, y sus iteraciones serán impresas en consola.
+Mientras que en el problema 3 se necesitaba crear un programa que pudiera leer la información de un archivo .txt y sacar la información de este. Se creó un menú para lograr tal finalidad, mediante while y la utilización de condicionales como if/else
